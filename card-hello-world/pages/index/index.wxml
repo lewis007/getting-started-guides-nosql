@@ -1,0 +1,3 @@
+<view class="text">Hello {{text}}!</view>
+<image class="img" src="../../resources/next.png" mode="widthFix"></image>
+<button bindtap="onChange">Change</button>

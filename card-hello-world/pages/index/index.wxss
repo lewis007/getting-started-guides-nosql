@@ -1,0 +1,11 @@
+Page {
+  text-align: center;
+}
+
+.text {
+  color: #FF0000;
+}
+
+.img {
+  margin-top: 200rpx;
+}
