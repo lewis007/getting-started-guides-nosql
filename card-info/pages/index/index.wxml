@@ -1,0 +1,27 @@
+<image src="../../resources/next-course.png" mode="widthFix"></image>
+<view class="comment">Next 学院 | 前端工程师课程</view>
+
+<view class="body">
+  <view class="title">Next学院是什么？</view>
+
+  <view>腾讯Next学院是腾讯课堂子品牌，是腾讯自研IT课程的生产者。</view>
+  <view>在腾讯Next学院，能够学习到国内顶尖的工程师的知识体系，了解一线工程师的代码规范和编码思路，进而培养优秀开发者的思维模式，知其然并知其所以然。</view>
+  <view>腾讯Next学院旨在提供最实用、最前沿的技术干活给用户，成为在线教育的变革者，助力人人都是工程师的未来世界。</view>
+
+  <view class="title">为什么要选择 Next 学院？</view>
+
+  <view>1、腾讯自研出品</view>
+  <view>流程自营：Next学院以腾讯为依托，探索出内容选题-课程策划-讲师授课-学位认证的内容生产流程，全流程把控，只为品质。</view>
+  <view>内容自研：Next学院出品课程均由通讯一线工程师设计担任讲师，集合讲师们在多年实践中总结出的技术精华。目前已经有超过50名腾讯工程师担任Next学院的老师。</view>
+
+  <view>2、项目实战</view>
+  <view>Next学院课程项目以实际工作场景需求为导向，由腾讯专家工程师精心设计，每个项目都可以作为简历素材。</view>
+
+  <view>3、代码管理</view>
+  <view>Next学院针对课程开发了在线编译系统和代码管理系统，让学员能够边学边练，像真实工作一样管理你的代码。</view>
+
+  <view>4、代码批改</view>
+  <view>腾讯导师会一对一为学生批改项目代码，帮助学员最快速写出实际工作水平的代码，让学习不再是看视频而已。学员不仅能看到正确的代码，更能学到腾讯高工代码构建的思维模式。</view>
+
+  <view class="foot">Next 学院</view>
+</view>

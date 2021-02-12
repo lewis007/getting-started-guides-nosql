@@ -1,0 +1,26 @@
+image {
+  width: 100%;
+}
+
+.comment {
+  text-align: center;
+  font-size: 14px;
+  color: #999;
+}
+
+.body {
+  padding: 60rpx;
+  line-height: 2;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 10rpx;
+  padding-bottom: 10rpx;
+}
+
+.foot {
+  text-align: center;
+  padding-top: 60rpx;
+}
