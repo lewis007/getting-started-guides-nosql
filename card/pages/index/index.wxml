@@ -1,0 +1,11 @@
+<view class="card">
+  <image class="bg" src="../../resources/bg.jpg" mode="widthFix"></image>
+  <image class="logo" src="../../resources/next.png" mode="widthFix"></image>
+
+  <view class="info">
+    <view class="name">Next 学院</view>
+    <view class="desc">专注高质量课程</view>
+    <view>185 2952 2951</view>
+    <view>next_academy@tencent.com</view>
+  </view>
+</view>

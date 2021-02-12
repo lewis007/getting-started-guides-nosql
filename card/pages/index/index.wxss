@@ -1,0 +1,35 @@
+.card {
+  margin: 10rpx;
+  /* 相对定位 */
+  position: relative;
+}
+
+.bg {
+  width: 100%;
+  border-radius: 5rpx;
+  box-shadow: 0 0 5px #5F687E;
+}
+
+.logo {
+  width: 180rpx;
+  /* 绝对定位 */
+  position: absolute;
+  top: 20rpx;
+  right: 40rpx;
+}
+
+.info {
+  position: absolute;
+  left: 50rpx;
+  bottom: 50rpx;
+  font-size: 16px;
+  color: #5F687E;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.desc {
+  margin-bottom: 15rpx;
+}
