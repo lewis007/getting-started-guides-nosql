@@ -3,7 +3,7 @@ Page {
 }
 
 .text {
-  color: #FF0000;
+  color: #f00;
 }
 
 .img {
