@@ -31,5 +31,5 @@
 }
 
 .desc {
-  margin-bottom: 15rpx;
+  margin-bottom: 20rpx;
 }
