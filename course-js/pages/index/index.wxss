@@ -1,0 +1,64 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.head {
+  display: flex;
+  margin: 2vh 2vw 0;
+}
+
+.list-wrap {
+  flex-grow: 1;
+  position: relative;
+}
+
+.list {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.list-scroll-view {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: space-between;
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+
+.course-card {
+  width: 47vw;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.course-card image {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.price,
+.active {
+  color: #23B8FF;
+}
+
+.guide {
+  display: flex;
+  justify-content: space-between;
+}
+
+.guide-item {
+  text-align: center;
+  font-size: 14px;
+  line-height: 1;
+  padding: 20px;
+}
+
+.guide-item image {
+  width: 38px;
+}

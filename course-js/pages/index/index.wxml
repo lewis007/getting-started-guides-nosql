@@ -1,0 +1,49 @@
+<template name="course-card">
+  <view class="course-card">
+    <view>
+      <image src="{{course.coverPath}}" mode="widthFix"></image>
+    </view>
+    <view>{{idx + 1}}. {{course.name}}</view>
+    <view wx:if="{{course.price > 0}}" class="price">{{course.price}}</view>
+    <view wx:else class="price">免费</view>
+  </view>
+</template>
+
+<view class="body">
+  <view class="head">
+    <button bindtap="showAll">全部</button>
+    <button bindtap="showFree" type="default">免费</button>
+    <button bindtap="showCost" type="warn">付费</button>
+  </view>
+
+  <view class="list-wrap">
+    <scroll-view scroll-y="true" class="list">
+      <view class="list-scroll-view">
+
+        <block wx:for="{{list}}" wx:for-item="course" wx:for-index="idx" wx:key="course">
+          <template is="course-card" data="{{course, idx}}" />
+        </block>
+
+      </view>
+    </scroll-view>
+  </view>
+
+  <view class="guide">
+    <view class="guide-item active">
+      <image src="../../resources/icon/index-active.png" mode="widthFix"></image>
+      <view>首页</view>
+    </view>
+    <view class="guide-item">
+      <image src="../../resources/icon/sort.png" mode="widthFix"></image>
+      <view>分类</view>
+    </view>
+    <view class="guide-item">
+      <image src="../../resources/icon/cal.png" mode="widthFix"></image>
+      <view>课程表</view>
+    </view>
+    <view class="guide-item">
+      <image src="../../resources/icon/head.png" mode="widthFix"></image>
+      <view>我的</view>
+    </view>
+  </view>
+</view>
